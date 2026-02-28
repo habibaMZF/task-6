@@ -1,8 +1,8 @@
 import numpy as np
 
 # Create Arrays
-A = np.array([10, 20, 30, 40, 50])          # Ages
-B = np.array([5, 4, 3, 2, 1])  # Salaries
+A = np.array([10, 20, 30, 40, 50])
+B = np.array([5, 4, 3, 2, 1])
 
 # Perform Operations
 print("A + B =", A + B)
@@ -21,4 +21,5 @@ print("Dot Product of A and B =", np.dot(A, B))
 # Reshape A to 5x1
 A_reshaped = A.reshape(5, 1)
 print("Reshaped A:")
+
 print(A_reshaped)
